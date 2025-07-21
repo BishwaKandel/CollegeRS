@@ -1,0 +1,381 @@
+text,intent,augmented,label_encoded
+do you provide internships?,Internship_opportunities,True,27
+are campus visits allowed on weekends?,Campus_visit_schedule,True,7
+who teaches in electrical engineering?,Faculty_info,True,22
+i need to what programming languages are taught in cse?,Syllabus_query,True,35
+information on please say that again,Repeat_question,True,31
+tell me about i want to register a complaint,Complaint_registration,True,10
+how far is the airport from campus??,Nearby_locations,True,28
+how can i what payment options do you offer?,Payment_methods,True,29
+what about what are the eligibility criteria?,Eligibility_criteria,True,18
+could you duration?,Clarification_needed,True,8
+is there a counseling cell?,Student_support_services,True,34
+can i do multiple internships?,Internship_opportunities,True,27
+what is the admission process?,Admission_process,True,3
+i want to register a complaint?,Complaint_registration,True,10
+information on department-specific fee information?,Department_fee_query,True,13
+tell me about the placement statistics please,Placement_info,True,30
+course fees details?,Fee_structure,False,23
+how can i do i need to submit original certificates?,Document_required,True,17
+could you where can i find your campus?,College_location,True,9
+what about do you allow direct admission?,Direct_admission,True,16
+how to prepare for the entrance test??,Entrance_exam_info,True,19
+how can i help for students?,Student_support_services,True,34
+is there a robotics or cultural club?,Extracurricular_activities,True,21
+whats the exact address of the college? please,College_location,True,9
+college email address?,Contact_information,True,11
+do you have management quota?,Direct_admission,True,16
+which documents are needed for admission?,Document_required,False,17
+what about when do classes begin?,Academic_calendar,True,0
+what about list all available courses,Course_list,True,12
+could you do you have student clubs?,Extracurricular_activities,True,21
+i need to is the college in the main city area?,Nearby_locations,True,28
+i need to semester exam dates?,Exam_schedule,True,20
+could you whats the exact address of the college?,College_location,True,9
+when does the semester start?,Academic_calendar,True,0
+could you tell me the civil department fee structure,Department_fee_query,True,13
+is there any test for admission?,Entrance_exam_info,False,19
+do you have career counseling??,Student_support_services,True,34
+how can i course?,Clarification_needed,True,8
+what research work happens in civil department? please,Department_info,True,14
+thats not helpful please,Unknown_query,True,37
+is there a robotics or cultural club?,Extracurricular_activities,True,21
+how can i i want to know something else,Unknown_query,True,37
+i need to i have a suggestion for the college,Feedback_and_suggestions,True,24
+details about is there a counseling cell?,Student_support_services,True,34
+details about what are the nearby hospitals?,Nearby_locations,True,28
+is there any test for admission?,Entrance_exam_info,True,19
+i need to what are the nearby hospitals?,Nearby_locations,True,28
+details about is there a gym on campus?,Campus_facilities,True,6
+location?,Clarification_needed,False,8
+could you what subjects are covered in the exam?,Entrance_exam_info,True,19
+could you what papers do i need for admission?,Document_required,True,17
+are there need-based scholarships?,Scholarship_criteria,True,33
+"i need to i didnt understand, repeat please",Repeat_question,True,31
+tell me about are there age restrictions for admission?,Eligibility_criteria,True,18
+tell me about when are the exams?,Exam_schedule,True,20
+tell me about is there a helpline number?,Contact_information,True,11
+what about can i speak to the admission officer?,Admission_officer_contact,True,2
+details about how do i file a complaint?,Complaint_registration,True,10
+campus visit timings?,Campus_visit_schedule,False,7
+how do i pay the admission fee?,Payment_methods,True,29
+alumni involvement in the college??,Alumni_network,True,4
+what are the bus routes?,Transport_facility,True,36
+i need to tell me about the faculty in electronics department,Department_info,True,14
+please say that again,Repeat_question,True,31
+are there phd holders among the faculty?,Faculty_info,False,22
+can mca students get scholarships?,Department_scholarship_query,True,15
+where exactly is the campus?,Nearby_locations,False,28
+tell me about whats the status of my application?,Application_status,True,5
+information on how can i get admission?,Admission_process,True,3
+scholarship??,Clarification_needed,True,8
+tell me about has my application been processed?,Application_status,True,5
+what programming languages are taught in cse?,Syllabus_query,False,35
+i need to whats the exam pattern?,Exam_schedule,True,20
+how long does scholarship approval take??,Scholarship_application,True,32
+could you has my application been accepted?,Application_status,True,5
+are there paid internships available??,Internship_opportunities,True,27
+what is the fee for computer engineering??,Department_fee_query,True,13
+how can i are there different room types with different fees?,Hostel_fee,True,25
+details about steps to get a scholarship?,Scholarship_application,True,32
+when do admissions open and close?,Admission_deadline,False,1
+scholarship eligibility criteria?,Scholarship_criteria,False,33
+how can i is the hostel separate for boys and girls?,Hostel_info,True,26
+is hostel fee refundable??,Hostel_fee,True,25
+merit scholarships for different branches?,Department_scholarship_query,False,15
+details about is there any test for admission?,Entrance_exam_info,True,19
+details about tell me about the placement statistics,Placement_info,True,30
+tell me about how do i pay the admission fee?,Payment_methods,True,29
+what about when does admission close?,Admission_deadline,True,1
+could you can i get direct contact of admission officer?,Admission_officer_contact,True,2
+is there a counselor for admissions?,Admission_officer_contact,False,2
+could you whats included in the total fee?,Fee_structure,True,23
+details about do alumni help with placements?,Alumni_network,True,4
+whats the syllabus for computer engineering?,Syllabus_query,True,35
+how long is each semester?,Academic_calendar,False,0
+how successful are your alumni?,Alumni_network,True,4
+what subjects can i study here? please,Course_list,True,12
+is there an alumni association?,Alumni_network,False,4
+what about scholarship?,Clarification_needed,True,8
+what about are there elective subjects?,Syllabus_query,True,35
+not related to admission?,Unknown_query,True,37
+could you hostel charges?,Hostel_fee,True,25
+i need to fee?,Clarification_needed,True,8
+in which area is the college located??,College_location,True,9
+when does admission close?,Admission_deadline,False,1
+what about music and dance clubs?,Extracurricular_activities,True,21
+tell me about college hostel facility?,Hostel_info,True,26
+what is the college address?,College_location,True,9
+how long is each exam?,Exam_schedule,True,20
+information on show me the courses,Course_list,True,12
+do you have alumni meets?,Alumni_network,False,4
+information on who will guide me during the campus tour?,Campus_visit_schedule,True,7
+how can i how long does complaint resolution take?,Complaint_registration,True,10
+list professors in mechanical department,Faculty_info,False,22
+whats the postal address? please,College_location,True,9
+tell me about can mca students get scholarships?,Department_scholarship_query,True,15
+how can i merit scholarships for different branches?,Department_scholarship_query,True,15
+i need to who will guide me during the campus tour?,Campus_visit_schedule,True,7
+information on what additional charges are there?,Fee_structure,True,23
+how can i is the college in the main city area?,Nearby_locations,True,28
+how far is the hostel from college??,Hostel_info,True,26
+tell me about do you organize cultural events?,Extracurricular_activities,True,21
+how can i are there remedial classes?,Student_support_services,True,34
+details about scholarship eligibility criteria?,Scholarship_criteria,True,33
+is there academic support for weak students??,Student_support_services,True,34
+are there different room types with different fees?,Hostel_fee,True,25
+is hostel fee refundable?,Hostel_fee,False,25
+where to send suggestions??,Feedback_and_suggestions,True,24
+do you conduct student surveys?,Feedback_and_suggestions,False,24
+tell me about how long does a campus tour take?,Campus_visit_schedule,True,7
+could you what does the computer department offer?,Department_info,True,14
+can i file anonymous complaints? please,Complaint_registration,True,10
+what about when does admission close?,Admission_deadline,True,1
+fee payment methods?,Payment_methods,True,29
+could you when will i know about my admission?,Application_status,True,5
+can i stay in hostel?,Hostel_info,True,26
+details about whats the holiday schedule?,Academic_calendar,True,0
+information on campus visit timings?,Campus_visit_schedule,True,7
+details about whats the procedure for admission?,Admission_process,True,3
+can i do multiple internships??,Internship_opportunities,True,27
+what about process?,Clarification_needed,True,8
+how can i give feedback??,Feedback_and_suggestions,True,24
+when are the exams?,Exam_schedule,False,20
+i need to how to share my experience?,Feedback_and_suggestions,True,24
+what about what about music and dance clubs?,Extracurricular_activities,True,21
+what about is there a scholarship for mechanical engineering?,Department_scholarship_query,True,15
+what is the total fee for civil engineering?,Fee_structure,True,23
+information on what are the criteria for direct admission?,Direct_admission,True,16
+how can i who is the head of department for electronics?,Faculty_info,True,22
+details about are there any technical festivals?,Extracurricular_activities,True,21
+am i eligible for mca?,Eligibility_criteria,True,18
+tell me about whats the status of my application?,Application_status,True,5
+how do i reach your admission office? please,Contact_information,True,11
+how can i contact admission officer,Admission_officer_contact,True,2
+could you has my application been accepted?,Application_status,True,5
+what are the bus timings?,Transport_facility,False,36
+how can i whats the college phone number?,Contact_information,True,11
+do you provide internships?,Internship_opportunities,True,27
+how do i apply??,Admission_process,True,3
+required documents for enrollment?,Document_required,True,17
+financial aid for specific departments?,Department_scholarship_query,False,15
+"i didnt understand, repeat please",Repeat_question,False,31
+tell me about monthly hostel fee?,Hostel_fee,True,25
+information on tell me about the fee structure,Fee_structure,True,23
+college hostel facility? please,Hostel_info,True,26
+tell me about the mechanical department,Department_info,True,14
+is there a grievance redressal system?,Student_support_services,True,34
+what percentage is required for scholarship??,Scholarship_criteria,True,33
+i need to how do i reach your admission office?,Contact_information,True,11
+how are the job placements?,Placement_info,False,30
+do you have management quota? please,Direct_admission,True,16
+do you have computer labs? please,Campus_facilities,True,6
+how much time do i have to apply? please,Admission_deadline,True,1
+what about what are the eligibility criteria?,Eligibility_criteria,True,18
+information on what courses are offered?,Course_list,True,12
+details about fee?,Clarification_needed,True,8
+does your college provide library access? please,Campus_facilities,True,6
+do buses run on weekends? please,Transport_facility,True,36
+who can apply?,Eligibility_criteria,False,18
+do you accept bank transfers?,Payment_methods,False,29
+details about what specializations are available in mechanical?,Department_info,True,14
+could you college opening date?,Academic_calendar,True,0
+information on campus visit timings?,Campus_visit_schedule,True,7
+"how can i i missed that, please repeat",Repeat_question,True,31
+details about bus service for students?,Transport_facility,True,36
+scholarship application process??,Scholarship_application,True,32
+can mca students get scholarships?,Department_scholarship_query,True,15
+how can i start date for classes?,Academic_calendar,True,0
+whats the exam pattern?,Entrance_exam_info,False,19
+what papers do i need for admission??,Document_required,True,17
+where do i submit my application?,Admission_process,False,3
+when are the semester breaks?,Academic_calendar,True,0
+could you when is the admission office open?,Admission_officer_contact,True,2
+"tell me about i didnt understand, repeat please",Repeat_question,True,31
+is there an entrance test? please,Entrance_exam_info,True,19
+tell me about can you tell me about the teaching staff?,Faculty_info,True,22
+information on list professors in mechanical department,Faculty_info,True,22
+information on how is the placement support provided?,Placement_info,True,30
+how can i exam timetable?,Exam_schedule,True,20
+tell me about all the degree programs,Course_list,False,12
+show me all the streams you offer,Course_list,True,12
+details about required qualifications?,Eligibility_criteria,True,18
+fee details for electrical engineering??,Department_fee_query,True,13
+mechanical engineering course fee?,Department_fee_query,False,13
+could you details of the civil department,Department_info,True,14
+is there a semester-wise fee breakdown? please,Fee_structure,True,23
+how can i how good is the it department?,Department_info,True,14
+when does the semester start??,Academic_calendar,True,0
+detailed syllabus for electrical?,Syllabus_query,True,35
+phone number of admission in-charge?,Admission_officer_contact,False,2
+how do i apply??,Admission_process,True,3
+i need to is there a medical center on campus?,Campus_facilities,True,6
+do you provide accommodation?,Hostel_info,False,26
+information on tell me the civil department fee structure,Department_fee_query,True,13
+cost of staying in hostel?,Hostel_fee,False,25
+what about can i come for a campus tour?,Campus_visit_schedule,True,7
+could you i meant something else,Unknown_query,True,37
+information on is there a counselor for admissions?,Admission_officer_contact,True,2
+tell me about past placements please,Placement_info,True,30
+how many subjects are there in first year?,Syllabus_query,False,35
+how much time do i have to apply?,Admission_deadline,True,1
+residential options for students?,Hostel_info,False,26
+tell me about can i pay through upi?,Payment_methods,True,29
+who are the teachers for mca?,Faculty_info,False,22
+could you has my application been processed?,Application_status,True,5
+syllabus for mca??,Syllabus_query,True,35
+tell me about nearby landmarks?,Nearby_locations,True,28
+do you provide student support?,Student_support_services,False,34
+can you repeat that?,Repeat_question,False,31
+information on is there merit-based admission?,Direct_admission,True,16
+tell me about do i need to take an exam?,Entrance_exam_info,True,19
+what about i meant something else,Unknown_query,True,37
+what about is there a late fee for delayed payment?,Payment_methods,True,29
+how can i thats not helpful,Unknown_query,True,37
+what documents are needed for scholarship?,Scholarship_criteria,True,33
+scholarship application process?,Scholarship_application,True,32
+how long does scholarship approval take?,Scholarship_application,False,32
+could you it department fee structure?,Department_fee_query,True,13
+whats the status of my application?,Application_status,False,5
+details about cost of staying in hostel?,Hostel_fee,True,25
+required documents for enrollment?,Document_required,True,17
+"i need to pardon me, repeat please",Repeat_question,True,31
+where is the college situated?,College_location,False,9
+can i speak to the admission officer?,Admission_officer_contact,True,2
+how can i do you have sports scholarships?,Scholarship_criteria,True,33
+could you college email address?,Contact_information,True,11
+how many exams are there in a semester??,Exam_schedule,True,20
+i have a different question,Unknown_query,True,37
+i need to who can apply?,Eligibility_criteria,True,18
+information on how much is the tuition fee?,Fee_structure,True,23
+college hostel facility? please,Hostel_info,True,26
+is there an extended deadline?,Admission_deadline,False,1
+scholarship eligibility criteria?,Scholarship_criteria,True,33
+i need to what are the eligibility criteria?,Eligibility_criteria,True,18
+i need to bus service for students?,Transport_facility,True,36
+what about where do i submit my application?,Admission_process,True,3
+is there a gym on campus?,Campus_facilities,True,6
+what about college distance from bus stop?,Nearby_locations,True,28
+list professors in mechanical department?,Faculty_info,True,22
+how can i different topic altogether,Unknown_query,True,37
+information on do alumni provide mentorship?,Alumni_network,True,4
+information on can i apply based on my marks?,Direct_admission,True,16
+what about do you offer transportation?,Transport_facility,True,36
+whats included in the total fee?,Fee_structure,True,23
+tell me about what papers do i need for admission?,Document_required,True,17
+what about form for applying scholarship?,Scholarship_application,True,32
+how can i requirements?,Clarification_needed,True,8
+i need to tell me about extracurricular activities,Extracurricular_activities,True,21
+documents checklist for admission,Document_required,False,17
+is there a feedback form?,Feedback_and_suggestions,False,24
+repeat the previous answer?,Repeat_question,True,31
+when is the entrance exam conducted??,Entrance_exam_info,True,19
+how can i whats the exam pattern?,Exam_schedule,True,20
+do you have student clubs?,Extracurricular_activities,True,21
+is there a college bus?,Transport_facility,True,36
+what about how long does complaint resolution take?,Complaint_registration,True,10
+what about how experienced are the faculty members?,Faculty_info,True,22
+which top companies recruit from here?,Placement_info,True,30
+i need to can students from other boards apply?,Eligibility_criteria,True,18
+what about is there a grievance redressal system?,Student_support_services,True,34
+what are the fees for various branches?,Fee_structure,False,23
+is there an online complaint system?,Complaint_registration,False,10
+i need to do you offer transportation?,Transport_facility,True,36
+tell me about whats the average placement package?,Placement_info,True,30
+by when should i submit the form? please,Admission_deadline,True,1
+is there a gym on campus?,Campus_facilities,False,6
+what happens if i miss the deadline? please,Admission_deadline,True,1
+i need to how can i contact former students?,Alumni_network,True,4
+what happens if i miss the deadline?,Admission_deadline,False,1
+tell me about who can apply?,Eligibility_criteria,True,18
+who is eligible for scholarship?,Scholarship_criteria,True,33
+fee payment methods??,Payment_methods,True,29
+how good is the it department?,Department_info,True,14
+where to send suggestions?,Feedback_and_suggestions,True,24
+what about how much is the fee for mca?,Department_fee_query,True,13
+do you have alumni meets? please,Alumni_network,True,4
+do i need to submit original certificates?,Document_required,False,17
+tell me about college hostel facility?,Hostel_info,True,26
+what about whats the college website?,Contact_information,True,11
+i need to where is the college located?,College_location,True,9
+could you thats not what i meant,Unknown_query,True,37
+what research work happens in civil department?,Department_info,False,14
+without exam admission possible?,Direct_admission,True,16
+how do i file a complaint?,Complaint_registration,False,10
+details about give me information about electrical department,Department_info,True,14
+details about start date for classes?,Academic_calendar,True,0
+where exactly is the campus??,Nearby_locations,True,28
+tell me about academic session schedule?,Academic_calendar,True,0
+what about do you have sports scholarships?,Scholarship_criteria,True,33
+how long are the internship programs?,Internship_opportunities,False,27
+details about how to apply for scholarship?,Scholarship_application,True,32
+is there a scholarship for mechanical engineering?,Department_scholarship_query,False,15
+is there a feedback form? please,Feedback_and_suggestions,True,24
+what student activities can i join?,Extracurricular_activities,False,21
+tell me about i want to register a complaint,Complaint_registration,True,10
+are there different room types with different fees?,Hostel_fee,True,25
+what is the college address? please,College_location,True,9
+do students get internships?,Internship_opportunities,True,27
+what about scholarship application process?,Scholarship_application,True,32
+contact details of the college? please,Contact_information,True,11
+subjects covered in civil engineering?,Syllabus_query,True,35
+are internships mandatory? please,Internship_opportunities,True,27
+tell me about in which area is the college located?,College_location,True,9
+details about branch-wise fee structure?,Department_fee_query,True,13
+how can i can i pay the fees online?,Payment_methods,True,29
+can i schedule a meeting with admission head?,Admission_officer_contact,True,2
+how does the college improve based on feedback??,Feedback_and_suggestions,True,24
+how can i whats the syllabus for computer engineering?,Syllabus_query,True,35
+who is eligible for scholarship?,Scholarship_criteria,True,33
+do you have alumni meets??,Alumni_network,True,4
+how successful are your placements?,Placement_info,True,30
+how can i can i get direct admission?,Direct_admission,True,16
+could you what percentage of students get placed?,Placement_info,True,30
+information on can i get in without entrance test?,Direct_admission,True,16
+details about do you have computer labs?,Campus_facilities,True,6
+how can i is there a gym on campus?,Campus_facilities,True,6
+can i do an internship during my course? please,Internship_opportunities,True,27
+tell me about the computer faculty,Faculty_info,False,22
+is there an online complaint system??,Complaint_registration,True,10
+tell me about list all available courses,Course_list,True,12
+tell me about is my application under review?,Application_status,True,5
+what about schedule for visiting the college?,Campus_visit_schedule,True,7
+tell me about how far is the airport from campus?,Nearby_locations,True,28
+semester exam dates?,Exam_schedule,False,20
+what internship options are available??,Internship_opportunities,True,27
+is there any test for admission??,Entrance_exam_info,True,19
+information on it department fee structure?,Department_fee_query,True,13
+what about admission?,Clarification_needed,True,8
+how long does the admission process take?,Admission_process,True,3
+show me all the streams you offer,Course_list,True,12
+is direct entry possible?,Direct_admission,True,16
+what comes after submitting the application?,Admission_process,True,3
+are there elective subjects??,Syllabus_query,True,35
+what are my course options?,Course_list,False,12
+tell me about contact admission officer,Admission_officer_contact,True,2
+how can i how to share my experience?,Feedback_and_suggestions,True,24
+what courses are offered?,Course_list,True,12
+what did you just say?,Repeat_question,False,31
+is hostel available?,Hostel_info,False,26
+tell me about tell me about past placements,Placement_info,True,30
+details about track my admission application,Application_status,True,5
+do i need to pay the full fee at once?,Fee_structure,False,23
+i need to scholarship details for computer department?,Department_scholarship_query,True,15
+scholarship options for civil department? please,Department_scholarship_query,True,15
+i need to whats the security deposit for hostel?,Hostel_fee,True,25
+is there an alumni association? please,Alumni_network,True,4
+can i come for a campus tour??,Campus_visit_schedule,True,7
+details about does the college have a hostel?,Campus_facilities,True,6
+is there a counseling cell? please,Student_support_services,True,34
+details about not related to admission,Unknown_query,True,37
+what about transport facility available?,Transport_facility,True,36
+i need to contact details of the college?,Contact_information,True,11
+what is the admission process?,Admission_process,False,3
+scholarship application process?,Scholarship_application,False,32
+information on when are the exams?,Exam_schedule,True,20
+information on whats the college phone number?,Contact_information,True,11
+which documents are needed for admission? please,Document_required,True,17
+scholarship application process?,Scholarship_application,True,32
+does your college provide library access?,Campus_facilities,False,6
+do you accept credit card for fee??,Payment_methods,True,29
+transport facility available?,Transport_facility,True,36

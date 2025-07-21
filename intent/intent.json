@@ -1,0 +1,574 @@
+{
+  "intents": [
+    {
+      "intent": "Course_list",
+      "examples": [
+        "What courses are offered?",
+        "List all available courses",
+        "Show me the courses",
+        "Which branches do you have?",
+        "Available academic programs?",
+        "What subjects can I study here?",
+        "Tell me about all the degree programs",
+        "Which engineering branches are available?",
+        "What are my course options?",
+        "Show me all the streams you offer"
+      ]
+    },
+    {
+      "intent": "Department_info",
+      "examples": [
+        "Tell me about the Mechanical department",
+        "Details of the Civil department",
+        "What does the Computer department offer?",
+        "Give me information about Electrical department",
+        "Explain the departments in your college",
+        "How good is the IT department?",
+        "What specializations are available in Mechanical?",
+        "Tell me about the faculty in Electronics department",
+        "What research work happens in Civil department?",
+        "How is the infrastructure in Computer Science department?"
+      ]
+    },
+    {
+      "intent": "Faculty_info",
+      "examples": [
+        "Who teaches in Electrical Engineering?",
+        "Tell me about the computer faculty",
+        "Who are the faculty members in Civil department?",
+        "List professors in Mechanical department",
+        "Who are the teachers for MCA?",
+        "How experienced are the faculty members?",
+        "What are the qualifications of professors here?",
+        "Can you tell me about the teaching staff?",
+        "Who is the head of department for Electronics?",
+        "Are there PhD holders among the faculty?"
+      ]
+    },
+    {
+      "intent": "College_location",
+      "examples": [
+        "Where is the college located?",
+        "What is the college address?",
+        "Give me location of the institute",
+        "Where can I find your campus?",
+        "Where is the college situated?",
+        "What's the exact address of the college?",
+        "In which area is the college located?",
+        "How do I reach the college?",
+        "What's the postal address?",
+        "Which city is the college in?"
+      ]
+    },
+    {
+      "intent": "Campus_facilities",
+      "examples": [
+        "Does the college have a hostel?",
+        "Is there a gym on campus?",
+        "What facilities are available in the college?",
+        "Does your college provide library access?",
+        "Tell me about infrastructure and campus amenities",
+        "Is there a canteen in the college?",
+        "What sports facilities do you have?",
+        "Is there a medical center on campus?",
+        "Do you have computer labs?",
+        "Are there any recreational facilities?"
+      ]
+    },
+    {
+      "intent": "Placement_info",
+      "examples": [
+        "What is the placement record?",
+        "Tell me about past placements",
+        "How are the job placements?",
+        "What companies visit your college?",
+        "How successful are your placements?",
+        "What's the average placement package?",
+        "Which top companies recruit from here?",
+        "What percentage of students get placed?",
+        "Tell me about the placement statistics",
+        "How is the placement support provided?"
+      ]
+    },
+    {
+      "intent": "Internship_opportunities",
+      "examples": [
+        "Do you provide internships?",
+        "Are internships mandatory?",
+        "What internship options are available?",
+        "Do students get internships?",
+        "Can I do an internship during my course?",
+        "How long are the internship programs?",
+        "Do you help find internship placements?",
+        "Are there paid internships available?",
+        "Can I do multiple internships?",
+        "When should I apply for internships?"
+      ]
+    },
+    {
+      "intent": "Extracurricular_activities",
+      "examples": [
+        "What clubs are available?",
+        "Tell me about extracurricular activities",
+        "Is there a robotics or cultural club?",
+        "Do you have student clubs?",
+        "What student activities can I join?",
+        "Are there any technical festivals?",
+        "Do you organize cultural events?",
+        "Is there a debate society?",
+        "What about music and dance clubs?",
+        "Are there volunteer opportunities on campus?"
+      ]
+    },
+    {
+      "intent": "Admission_process",
+      "examples": [
+        "How do I apply?",
+        "What is the admission process?",
+        "Steps to apply for admission?",
+        "How can I get admission?",
+        "Tell me how to enroll",
+        "What's the procedure for admission?",
+        "Where do I submit my application?",
+        "How long does the admission process take?",
+        "What comes after submitting the application?",
+        "Do I need to visit the college for admission?"
+      ]
+    },
+    {
+      "intent": "Admission_deadline",
+      "examples": [
+        "What is the last date to apply?",
+        "When does admission close?",
+        "Deadline for application?",
+        "By when should I submit the form?",
+        "Final date for admission?",
+        "How much time do I have to apply?",
+        "When do admissions open and close?",
+        "Is there an extended deadline?",
+        "What happens if I miss the deadline?",
+        "Are there multiple admission rounds?"
+      ]
+    },
+    {
+      "intent": "Eligibility_criteria",
+      "examples": [
+        "Am I eligible for MCA?",
+        "What are the eligibility criteria?",
+        "Who can apply?",
+        "Eligibility for admission?",
+        "Required qualifications?",
+        "What percentage do I need for admission?",
+        "Do I need to have studied specific subjects?",
+        "What's the minimum qualification required?",
+        "Are there age restrictions for admission?",
+        "Can students from other boards apply?"
+      ]
+    },
+    {
+      "intent": "Entrance_exam_info",
+      "examples": [
+        "Is there an entrance test?",
+        "Do I need to take an exam?",
+        "Entrance exam details?",
+        "Is there any test for admission?",
+        "Admission through entrance exam?",
+        "What's the exam pattern?",
+        "When is the entrance exam conducted?",
+        "How to prepare for the entrance test?",
+        "What subjects are covered in the exam?",
+        "Is the entrance exam online or offline?"
+      ]
+    },
+    {
+      "intent": "Direct_admission",
+      "examples": [
+        "Can I get direct admission?",
+        "Is direct entry possible?",
+        "Do you allow direct admission?",
+        "Without exam admission possible?",
+        "Can I get in without entrance test?",
+        "Is there merit-based admission?",
+        "Can I apply based on my marks?",
+        "Do you have management quota?",
+        "Is direct admission available for all courses?",
+        "What are the criteria for direct admission?"
+      ]
+    },
+    {
+      "intent": "Application_status",
+      "examples": [
+        "What's the status of my application?",
+        "Check my admission form",
+        "Has my application been accepted?",
+        "Admission status update?",
+        "Track my admission application",
+        "When will I know about my admission?",
+        "How to check if my application is complete?",
+        "Is my application under review?",
+        "What's the next step in my application?",
+        "Has my application been processed?"
+      ]
+    },
+    {
+      "intent": "Document_required",
+      "examples": [
+        "Which documents are needed for admission?",
+        "What should I submit with the application?",
+        "Required documents for enrollment?",
+        "What papers do I need for admission?",
+        "Documents checklist for admission",
+        "Do I need to submit original certificates?",
+        "What about photocopies of documents?",
+        "Is there a specific format for documents?",
+        "Do I need character certificates?",
+        "Are medical certificates required?"
+      ]
+    },
+    {
+      "intent": "Fee_structure",
+      "examples": [
+        "What is the total fee for Civil Engineering?",
+        "Tell me about the fee structure",
+        "How much is the tuition fee?",
+        "Course fees details?",
+        "What are the fees for various branches?",
+        "Is there a semester-wise fee breakdown?",
+        "What additional charges are there?",
+        "Do I need to pay the full fee at once?",
+        "What's included in the total fee?",
+        "Are there any hidden charges?"
+      ]
+    },
+    {
+      "intent": "Payment_methods",
+      "examples": [
+        "Can I pay the fees online?",
+        "What payment options do you offer?",
+        "Fee payment methods?",
+        "Do you accept credit card for fee?",
+        "How do I pay the admission fee?",
+        "Is installment payment available?",
+        "Can I pay through UPI?",
+        "Do you accept bank transfers?",
+        "Is there a late fee for delayed payment?",
+        "Can someone else pay my fees?"
+      ]
+    },
+    {
+      "intent": "Scholarship_criteria",
+      "examples": [
+        "How can I get a scholarship?",
+        "Who is eligible for scholarship?",
+        "Scholarship eligibility criteria?",
+        "Do you offer financial aid?",
+        "On what basis is scholarship given?",
+        "What percentage is required for scholarship?",
+        "Are there need-based scholarships?",
+        "Do you have sports scholarships?",
+        "Are scholarships available for all courses?",
+        "What documents are needed for scholarship?"
+      ]
+    },
+    {
+      "intent": "Scholarship_application",
+      "examples": [
+        "How to apply for scholarship?",
+        "Where can I submit my scholarship form?",
+        "Scholarship application process?",
+        "Steps to get a scholarship?",
+        "Form for applying scholarship?",
+        "When should I apply for scholarship?",
+        "Is there a separate form for scholarship?",
+        "What's the deadline for scholarship application?",
+        "How long does scholarship approval take?",
+        "Can I apply for multiple scholarships?"
+      ]
+    },
+    {
+      "intent": "Campus_visit_schedule",
+      "examples": [
+        "Can I visit the college campus?",
+        "When can I tour the campus?",
+        "Campus visit timings?",
+        "Schedule for visiting the college?",
+        "Can I come for a campus tour?",
+        "Do I need prior appointment to visit?",
+        "Are campus visits allowed on weekends?",
+        "Who will guide me during the campus tour?",
+        "How long does a campus tour take?",
+        "Can my parents accompany me for the visit?"
+      ]
+    },
+    {
+      "intent": "Contact_information",
+      "examples": [
+        "What's the college phone number?",
+        "How can I contact the college?",
+        "College email address?",
+        "Contact details of the college?",
+        "How do I reach your admission office?",
+        "What are the office hours?",
+        "Is there a helpline number?",
+        "How can I contact you on WhatsApp?",
+        "What's the college website?",
+        "How to reach the principal's office?"
+      ]
+    },
+    {
+      "intent": "Admission_officer_contact",
+      "examples": [
+        "Can I speak to the admission officer?",
+        "Who is the admission coordinator?",
+        "Contact admission officer",
+        "I want to talk to someone from admissions",
+        "Phone number of admission in-charge?",
+        "Can I schedule a meeting with admission head?",
+        "Who handles admission queries?",
+        "Is there a counselor for admissions?",
+        "Can I get direct contact of admission officer?",
+        "When is the admission office open?"
+      ]
+    },
+    {
+      "intent": "Hostel_info",
+      "examples": [
+        "Is hostel available?",
+        "Do you provide accommodation?",
+        "College hostel facility?",
+        "Can I stay in hostel?",
+        "Residential options for students?",
+        "How many students can the hostel accommodate?",
+        "Is the hostel separate for boys and girls?",
+        "What amenities are available in hostel?",
+        "How far is the hostel from college?",
+        "Are there any hostel rules and regulations?"
+      ]
+    },
+    {
+      "intent": "Hostel_fee",
+      "examples": [
+        "How much is the hostel fee?",
+        "Hostel charges?",
+        "Cost of staying in hostel?",
+        "Room rent for students?",
+        "Monthly hostel fee?",
+        "Is mess fee included in hostel charges?",
+        "What's the security deposit for hostel?",
+        "Are there different room types with different fees?",
+        "When do I need to pay the hostel fee?",
+        "Is hostel fee refundable?"
+      ]
+    },
+    {
+      "intent": "Transport_facility",
+      "examples": [
+        "Is there a college bus?",
+        "Do you offer transportation?",
+        "Transport facility available?",
+        "College transport options?",
+        "Bus service for students?",
+        "What are the bus routes?",
+        "How much is the bus fee?",
+        "What are the bus timings?",
+        "Do buses run on weekends?",
+        "How many buses does the college have?"
+      ]
+    },
+    {
+      "intent": "Nearby_locations",
+      "examples": [
+        "Is the campus near the railway station?",
+        "How far is the college from the city?",
+        "Nearby landmarks?",
+        "College distance from bus stop?",
+        "Where exactly is the campus?",
+        "What's the nearest metro station?",
+        "Are there any shops near the college?",
+        "How far is the airport from campus?",
+        "Is the college in the main city area?",
+        "What are the nearby hospitals?"
+      ]
+    },
+    {
+      "intent": "Academic_calendar",
+      "examples": [
+        "When does the semester start?",
+        "Academic session schedule?",
+        "College opening date?",
+        "Start date for classes?",
+        "When do classes begin?",
+        "What's the academic year pattern?",
+        "When are the semester breaks?",
+        "How long is each semester?",
+        "When does the admission batch start classes?",
+        "What's the holiday schedule?"
+      ]
+    },
+    {
+      "intent": "Exam_schedule",
+      "examples": [
+        "When are the exams?",
+        "Exam timetable?",
+        "Semester exam dates?",
+        "Final exam schedule?",
+        "Test dates this year?",
+        "How many exams are there in a semester?",
+        "Are there internal assessments?",
+        "When are the practical exams?",
+        "What's the exam pattern?",
+        "How long is each exam?"
+      ]
+    },
+    {
+      "intent": "Syllabus_query",
+      "examples": [
+        "What's the syllabus for Computer Engineering?",
+        "Syllabus for MCA?",
+        "Subjects covered in Civil Engineering?",
+        "Where can I find the course syllabus?",
+        "Detailed syllabus for electrical?",
+        "How many subjects are there in first year?",
+        "What programming languages are taught in CSE?",
+        "Are there elective subjects?",
+        "Is the syllabus updated regularly?",
+        "What textbooks are recommended?"
+      ]
+    },
+    {
+      "intent": "Student_support_services",
+      "examples": [
+        "Is there a counseling cell?",
+        "Do you provide student support?",
+        "Help for students?",
+        "Support services for mental health?",
+        "Is there any student guidance team?",
+        "Do you have career counseling?",
+        "Is there academic support for weak students?",
+        "Are there remedial classes?",
+        "Do you provide psychological support?",
+        "Is there a grievance redressal system?"
+      ]
+    },
+    {
+      "intent": "Alumni_network",
+      "examples": [
+        "Can I talk to alumni?",
+        "Is there an alumni association?",
+        "Do you have alumni meets?",
+        "How can I contact former students?",
+        "Alumni involvement in the college?",
+        "Do alumni help with placements?",
+        "Are there networking events with alumni?",
+        "How successful are your alumni?",
+        "Do alumni provide mentorship?",
+        "Can alumni help with career guidance?"
+      ]
+    },
+    {
+      "intent": "Feedback_and_suggestions",
+      "examples": [
+        "How can I give feedback?",
+        "Where to send suggestions?",
+        "I have a suggestion for the college",
+        "Can I provide feedback on services?",
+        "How to share my experience?",
+        "Is there a feedback form?",
+        "Do you conduct student surveys?",
+        "How does the college improve based on feedback?",
+        "Can I suggest new courses or activities?",
+        "Is there an online feedback system?"
+      ]
+    },
+    {
+      "intent": "Complaint_registration",
+      "examples": [
+        "I want to register a complaint",
+        "How do I file a complaint?",
+        "Where can I report an issue?",
+        "Complaint procedure?",
+        "Who do I contact for complaints?",
+        "Is there a complaint box?",
+        "How long does complaint resolution take?",
+        "Can I file anonymous complaints?",
+        "What happens after I file a complaint?",
+        "Is there an online complaint system?"
+      ]
+    },
+    {
+      "intent": "Repeat_question",
+      "examples": [
+        "Can you repeat that?",
+        "Please say that again",
+        "I didn't understand, repeat please",
+        "What did you just say?",
+        "Repeat the previous answer",
+        "Come again?",
+        "I missed that, please repeat",
+        "Could you say that once more?",
+        "Pardon me, repeat please",
+        "I didn't catch that"
+      ]
+    },
+    {
+      "intent": "Unknown_query",
+      "examples": [
+        "I want to know something else",
+        "That's not what I meant",
+        "Not related to admission",
+        "This is off topic",
+        "I have a different question",
+        "Something completely different",
+        "That's not helpful",
+        "I meant something else",
+        "Not what I was looking for",
+        "Different topic altogether"
+      ]
+    },
+    {
+      "intent": "Clarification_needed",
+      "examples": [
+        "Fee?",
+        "Duration?",
+        "Admission?",
+        "Scholarship?",
+        "Course?",
+        "Location?",
+        "Timing?",
+        "Process?",
+        "Requirements?",
+        "Details?"
+      ]
+    },
+    {
+      "intent": "Department_fee_query",
+      "examples": [
+        "What is the fee for Computer Engineering?",
+        "Tell me the Civil department fee structure",
+        "How much is the fee for MCA?",
+        "Fee details for Electrical Engineering?",
+        "Branch-wise fee structure?",
+        "Mechanical engineering course fee?",
+        "How much for Electronics department?",
+        "IT department fee structure?",
+        "What's the fee for different branches?",
+        "Department-specific fee information?"
+      ]
+    },
+    {
+      "intent": "Department_scholarship_query",
+      "examples": [
+        "Is there a scholarship for Mechanical Engineering?",
+        "Scholarship options for Civil department?",
+        "Can MCA students get scholarships?",
+        "Scholarship details for Computer department?",
+        "Branch-wise scholarship information?",
+        "Are there department-specific scholarships?",
+        "Electrical engineering scholarship availability?",
+        "Which departments offer the most scholarships?",
+        "Merit scholarships for different branches?",
+        "Financial aid for specific departments?"
+      ]
+    }
+  ]
+}
